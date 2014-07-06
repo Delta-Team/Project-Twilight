@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AF754E841969047C002FFF2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF754E831969047C002FFF2F /* Foundation.framework */; };
 		AF754E8F1969047D002FFF2F /* Twilight.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF754E8E1969047D002FFF2F /* Twilight.mm */; };
+		AF754E9A196908EB002FFF2F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF754E99196908EB002FFF2F /* CoreFoundation.framework */; };
+		AF754E9C196908F1002FFF2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF754E9B196908F1002FFF2F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,9 +20,11 @@
 		AF754E891969047C002FFF2F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		AF754E8B1969047C002FFF2F /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		AF754E8C1969047C002FFF2F /* Twilight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twilight-Prefix.pch"; sourceTree = "<group>"; };
-		AF754E8D1969047D002FFF2F /* Twilight.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = Twilight.xm; sourceTree = "<group>"; };
+		AF754E8D1969047D002FFF2F /* Twilight.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AF754E8E1969047D002FFF2F /* Twilight.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.mm; sourceTree = "<group>"; };
 		AF754E931969047D002FFF2F /* Twilight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Twilight.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Twilight.plist; sourceTree = "<group>"; };
+		AF754E99196908EB002FFF2F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AF754E9B196908F1002FFF2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF754E9C196908F1002FFF2F /* UIKit.framework in Frameworks */,
+				AF754E9A196908EB002FFF2F /* CoreFoundation.framework in Frameworks */,
 				AF754E841969047C002FFF2F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +61,8 @@
 		AF754E821969047C002FFF2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF754E9B196908F1002FFF2F /* UIKit.framework */,
+				AF754E99196908EB002FFF2F /* CoreFoundation.framework */,
 				AF754E831969047C002FFF2F /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -337,6 +345,7 @@
 				AF754E981969047D002FFF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
