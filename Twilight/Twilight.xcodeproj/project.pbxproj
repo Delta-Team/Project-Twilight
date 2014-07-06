@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF754E841969047C002FFF2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF754E831969047C002FFF2F /* Foundation.framework */; };
+		AF754E8F1969047D002FFF2F /* Twilight.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF754E8E1969047D002FFF2F /* Twilight.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF754E801969047C002FFF2F /* Twilight.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Twilight.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF754E831969047C002FFF2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF754E881969047C002FFF2F /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		AF754E891969047C002FFF2F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		AF754E8B1969047C002FFF2F /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		AF754E8C1969047C002FFF2F /* Twilight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twilight-Prefix.pch"; sourceTree = "<group>"; };
+		AF754E8D1969047D002FFF2F /* Twilight.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = Twilight.xm; sourceTree = "<group>"; };
+		AF754E8E1969047D002FFF2F /* Twilight.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.mm; sourceTree = "<group>"; };
+		AF754E931969047D002FFF2F /* Twilight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Twilight.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Twilight.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF754E7C1969047C002FFF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF754E841969047C002FFF2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF754E751969047C002FFF2F = {
+			isa = PBXGroup;
+			children = (
+				AF754E851969047C002FFF2F /* Twilight */,
+				AF754E821969047C002FFF2F /* Frameworks */,
+				AF754E811969047C002FFF2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF754E811969047C002FFF2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E801969047C002FFF2F /* Twilight.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF754E821969047C002FFF2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E831969047C002FFF2F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF754E851969047C002FFF2F /* Twilight */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E8D1969047D002FFF2F /* Twilight.xm */,
+				AF754E8E1969047D002FFF2F /* Twilight.mm */,
+				AF754E861969047C002FFF2F /* Package */,
+				AF754E8A1969047C002FFF2F /* Supporting Files */,
+			);
+			path = Twilight;
+			sourceTree = "<group>";
+		};
+		AF754E861969047C002FFF2F /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E871969047C002FFF2F /* DEBIAN */,
+				AF754E901969047D002FFF2F /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		AF754E871969047C002FFF2F /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E881969047C002FFF2F /* control.txt */,
+				AF754E891969047C002FFF2F /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		AF754E8A1969047C002FFF2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E8B1969047C002FFF2F /* PackageVersion.plist */,
+				AF754E8C1969047C002FFF2F /* Twilight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF754E901969047D002FFF2F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E911969047D002FFF2F /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		AF754E911969047D002FFF2F /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E921969047D002FFF2F /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		AF754E921969047D002FFF2F /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				AF754E931969047D002FFF2F /* Twilight.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF754E7D1969047C002FFF2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AF754E7F1969047C002FFF2F /* Twilight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF754E961969047D002FFF2F /* Build configuration list for PBXNativeTarget "Twilight" */;
+			buildPhases = (
+				AF754E7A1969047C002FFF2F /* ShellScript */,
+				AF754E7B1969047C002FFF2F /* Sources */,
+				AF754E7C1969047C002FFF2F /* Frameworks */,
+				AF754E7D1969047C002FFF2F /* Headers */,
+				AF754E7E1969047C002FFF2F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twilight;
+			productName = Twilight;
+			productReference = AF754E801969047C002FFF2F /* Twilight.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF754E761969047C002FFF2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = AF754E791969047C002FFF2F /* Build configuration list for PBXProject "Twilight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF754E751969047C002FFF2F;
+			productRefGroup = AF754E811969047C002FFF2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF754E7F1969047C002FFF2F /* Twilight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF754E7A1969047C002FFF2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		AF754E7E1969047C002FFF2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF754E7B1969047C002FFF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF754E8F1969047D002FFF2F /* Twilight.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF754E941969047D002FFF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		AF754E951969047D002FFF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		AF754E971969047D002FFF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		AF754E981969047D002FFF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF754E791969047C002FFF2F /* Build configuration list for PBXProject "Twilight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF754E941969047D002FFF2F /* Debug */,
+				AF754E951969047D002FFF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF754E961969047D002FFF2F /* Build configuration list for PBXNativeTarget "Twilight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF754E971969047D002FFF2F /* Debug */,
+				AF754E981969047D002FFF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF754E761969047C002FFF2F /* Project object */;
+}
