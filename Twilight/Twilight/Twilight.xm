@@ -30,6 +30,8 @@ float last;
             [iconWindow setUserInteractionEnabled:YES];
         }];
         // icon fade...
+        
+        //Meirtz, Popover or somewhat else shows up there
     }else if(last - point.y < 0.0f){
         // touch moved down
         SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
@@ -41,6 +43,8 @@ float last;
             [iconWindow setUserInteractionEnabled:YES];
         }];
         // icon show...
+        
+        //Meirtz, Popover or somewhat else dismiss there
     }
     last = point.y;
     %orig(touches,event);
