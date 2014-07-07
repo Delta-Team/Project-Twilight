@@ -1,5 +1,12 @@
 #import <UIKit/UIKit.h>
 
+#import "ExampleViewCollectionView.h"
+#import "ModalViewController.h"
+#import "ModalViewControllerWithoutScrollView.h"
+#import "UIImage+ImageEffects.h"
+#import "UINavigationController+MHDismissModalView.h"
+
+
 // small headers
 @interface SBIconScrollView : UIView
 @end
@@ -12,6 +19,8 @@
 
 %hook SBIconScrollView
 
+
+
 float last;
 // record last time touch's y position
 
@@ -19,11 +28,13 @@ float last;
 {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self];
-    if (last - point.y > 30.0f){
+    if (last - point.y > 20.0f){
         // touch moved up 10px
+        
         SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
         UIWindow *iconWindow = sb.keyWindow;
-        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        
+                [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
             [iconWindow setUserInteractionEnabled:NO];
             [iconWindow setAlpha:0.3f];
         } completion:^(BOOL finished) {
@@ -32,6 +43,16 @@ float last;
         // icon fade...
         
         //Meirtz, Popover or somewhat else shows up there
+        
+        
+        
+        ModalViewController *modal = [[ModalViewController alloc] init];
+        [modal.view setBackgroundColor:[UIColor yellowColor]];
+        iconWindow.rootViewController = modal;
+        /*UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:modal];
+        [sb.keyWindow.rootViewController presentViewController:nav animated:YES completion:^{
+            
+        }];*/
     }
     
     /*                     ***DEPRECATED***
@@ -39,9 +60,7 @@ float last;
      
      else if(last - point.y < 0.0f){
      // touch moved down
-     SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
-     UIWindow *iconWindow = sb.keyWindow;
-     [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+     SpringBoard *sb = (SpringBoard *)[UIApplication kiewAnimationOptionCurveEaseOut animations:^{
      [iconWindow setUserInteractionEnabled:NO];
      [iconWindow setAlpha:1.0f];
      } completion:^(BOOL finished) {
@@ -55,6 +74,50 @@ float last;
     
     last = point.y;
     %orig(touches,event);
+}
+
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    UITouch *touch = [touches anyObject];
+    CGPoint point = [touch locationInView:self];
+    if (last - point.y > 20.0f){
+        // touch moved up 10px
+        
+        SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
+        UIWindow *iconWindow = sb.keyWindow;
+        
+        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+            [iconWindow setUserInteractionEnabled:NO];
+            [iconWindow setAlpha:1.0f];
+        } completion:^(BOOL finished) {
+            [iconWindow setUserInteractionEnabled:YES];
+        }];
+        // icon fade...
+        
+        //Meirtz, Popover or somewhat else shows up there
+    }
+
+}
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *touch = [touches anyObject];
+    CGPoint point = [touch locationInView:self];
+    if (last - point.y > 20.0f){
+        // touch moved up 10px
+        
+        SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
+        UIWindow *iconWindow = sb.keyWindow;
+        
+        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+            [iconWindow setUserInteractionEnabled:NO];
+            [iconWindow setAlpha:1.0f];
+        } completion:^(BOOL finished) {
+            [iconWindow setUserInteractionEnabled:YES];
+        }];
+        // icon fade...
+        
+        //Meirtz, Popover or somewhat else shows up there
+    }
+
 }
 
 %end
