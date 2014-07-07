@@ -11,12 +11,17 @@
 @interface SBAppWindow : UIWindow
 @end
 
+
+#define upDelta 15.0f
+#define animationDuration 0.3f
+#define iconViewAlpha 0.3f
+
 #include <logos/logos.h>
 #include <substrate.h>
 @class SBIconScrollView; 
 static void (*_logos_orig$_ungrouped$SBIconScrollView$touchesMoved$withEvent$)(SBIconScrollView*, SEL, NSSet *, id); static void _logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(SBIconScrollView*, SEL, NSSet *, id); 
 
-#line 13 "/Users/BlueCocoa/Desktop/My Projects/Project-Twilight/Twilight/Twilight/Twilight.xm"
+#line 18 "/Users/BlueCocoa/Desktop/My Projects/Project-Twilight/Twilight/Twilight/Twilight.xm"
 
 
 float last;
@@ -26,13 +31,13 @@ float last;
 static void _logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(SBIconScrollView* self, SEL _cmd, NSSet * touches, id event) {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self];
-    if (last - point.y > 15.0f){
+    if (last - point.y > upDelta){
         
         SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
         UIWindow *iconWindow = sb.keyWindow;
-        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        [UIView animateWithDuration:animationDuration delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
             [iconWindow setUserInteractionEnabled:NO];
-            [iconWindow setAlpha:0.3f];
+            [iconWindow setAlpha:iconViewAlpha];
         } completion:^(BOOL finished) {
             [iconWindow setUserInteractionEnabled:YES];
         }];
@@ -67,4 +72,4 @@ static void _logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(SB
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$SBIconScrollView = objc_getClass("SBIconScrollView"); MSHookMessageEx(_logos_class$_ungrouped$SBIconScrollView, @selector(touchesMoved:withEvent:), (IMP)&_logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$, (IMP*)&_logos_orig$_ungrouped$SBIconScrollView$touchesMoved$withEvent$);} }
-#line 61 "/Users/BlueCocoa/Desktop/My Projects/Project-Twilight/Twilight/Twilight/Twilight.xm"
+#line 66 "/Users/BlueCocoa/Desktop/My Projects/Project-Twilight/Twilight/Twilight/Twilight.xm"

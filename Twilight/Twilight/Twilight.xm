@@ -10,6 +10,11 @@
 @interface SBAppWindow : UIWindow
 @end
 
+// constant
+#define upDelta 15.0f
+#define animationDuration 0.3f
+#define iconViewAlpha 0.3f
+
 %hook SBIconScrollView
 
 float last;
@@ -19,13 +24,13 @@ float last;
 {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self];
-    if (last - point.y > 15.0f){
+    if (last - point.y > upDelta){
         // touch moved up 15px
         SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
         UIWindow *iconWindow = sb.keyWindow;
-        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        [UIView animateWithDuration:animationDuration delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
             [iconWindow setUserInteractionEnabled:NO];
-            [iconWindow setAlpha:0.3f];
+            [iconWindow setAlpha:iconViewAlpha];
         } completion:^(BOOL finished) {
             [iconWindow setUserInteractionEnabled:YES];
         }];
