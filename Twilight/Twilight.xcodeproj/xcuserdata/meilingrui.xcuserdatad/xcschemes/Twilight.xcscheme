@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF754E7F1969047C002FFF2F"
+               BlueprintIdentifier = "AFCC866C196A4D82001FCCD9"
                BuildableName = "Twilight.dylib"
                BlueprintName = "Twilight"
                ReferencedContainer = "container:Twilight.xcodeproj">

@@ -7,125 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF754E841969047C002FFF2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF754E831969047C002FFF2F /* Foundation.framework */; };
-		AF754E8F1969047D002FFF2F /* Twilight.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF754E8E1969047D002FFF2F /* Twilight.mm */; };
-		AF754E9A196908EB002FFF2F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF754E99196908EB002FFF2F /* CoreFoundation.framework */; };
-		AF754E9C196908F1002FFF2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF754E9B196908F1002FFF2F /* UIKit.framework */; };
+		AFCC8671196A4D82001FCCD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCC8670196A4D82001FCCD9 /* Foundation.framework */; };
+		AFCC867C196A4D82001FCCD9 /* Twilight.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFCC867B196A4D82001FCCD9 /* Twilight.mm */; };
+		AFCC8687196A4D94001FCCD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCC8686196A4D94001FCCD9 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF754E801969047C002FFF2F /* Twilight.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Twilight.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF754E831969047C002FFF2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AF754E881969047C002FFF2F /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
-		AF754E891969047C002FFF2F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
-		AF754E8B1969047C002FFF2F /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
-		AF754E8C1969047C002FFF2F /* Twilight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twilight-Prefix.pch"; sourceTree = "<group>"; };
-		AF754E8D1969047D002FFF2F /* Twilight.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		AF754E8E1969047D002FFF2F /* Twilight.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.mm; sourceTree = "<group>"; };
-		AF754E931969047D002FFF2F /* Twilight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Twilight.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Twilight.plist; sourceTree = "<group>"; };
-		AF754E99196908EB002FFF2F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		AF754E9B196908F1002FFF2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFCC866D196A4D82001FCCD9 /* Twilight.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Twilight.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCC8670196A4D82001FCCD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFCC8675196A4D82001FCCD9 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		AFCC8676196A4D82001FCCD9 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		AFCC8678196A4D82001FCCD9 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		AFCC8679196A4D82001FCCD9 /* Twilight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twilight-Prefix.pch"; sourceTree = "<group>"; };
+		AFCC867A196A4D82001FCCD9 /* Twilight.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AFCC867B196A4D82001FCCD9 /* Twilight.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.mm; sourceTree = "<group>"; };
+		AFCC8680196A4D82001FCCD9 /* Twilight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Twilight.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Twilight.plist; sourceTree = "<group>"; };
+		AFCC8686196A4D94001FCCD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF754E7C1969047C002FFF2F /* Frameworks */ = {
+		AFCC8669196A4D82001FCCD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF754E9C196908F1002FFF2F /* UIKit.framework in Frameworks */,
-				AF754E9A196908EB002FFF2F /* CoreFoundation.framework in Frameworks */,
-				AF754E841969047C002FFF2F /* Foundation.framework in Frameworks */,
+				AFCC8687196A4D94001FCCD9 /* UIKit.framework in Frameworks */,
+				AFCC8671196A4D82001FCCD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF754E751969047C002FFF2F = {
+		AFCC8662196A4D82001FCCD9 = {
 			isa = PBXGroup;
 			children = (
-				AF754E851969047C002FFF2F /* Twilight */,
-				AF754E821969047C002FFF2F /* Frameworks */,
-				AF754E811969047C002FFF2F /* Products */,
+				AFCC8672196A4D82001FCCD9 /* Twilight */,
+				AFCC866F196A4D82001FCCD9 /* Frameworks */,
+				AFCC866E196A4D82001FCCD9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AF754E811969047C002FFF2F /* Products */ = {
+		AFCC866E196A4D82001FCCD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E801969047C002FFF2F /* Twilight.dylib */,
+				AFCC866D196A4D82001FCCD9 /* Twilight.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF754E821969047C002FFF2F /* Frameworks */ = {
+		AFCC866F196A4D82001FCCD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E9B196908F1002FFF2F /* UIKit.framework */,
-				AF754E99196908EB002FFF2F /* CoreFoundation.framework */,
-				AF754E831969047C002FFF2F /* Foundation.framework */,
+				AFCC8686196A4D94001FCCD9 /* UIKit.framework */,
+				AFCC8670196A4D82001FCCD9 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AF754E851969047C002FFF2F /* Twilight */ = {
+		AFCC8672196A4D82001FCCD9 /* Twilight */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E8D1969047D002FFF2F /* Twilight.xm */,
-				AF754E8E1969047D002FFF2F /* Twilight.mm */,
-				AF754E861969047C002FFF2F /* Package */,
-				AF754E8A1969047C002FFF2F /* Supporting Files */,
+				AFCC867A196A4D82001FCCD9 /* Twilight.xm */,
+				AFCC867B196A4D82001FCCD9 /* Twilight.mm */,
+				AFCC8673196A4D82001FCCD9 /* Package */,
+				AFCC8677196A4D82001FCCD9 /* Supporting Files */,
 			);
 			path = Twilight;
 			sourceTree = "<group>";
 		};
-		AF754E861969047C002FFF2F /* Package */ = {
+		AFCC8673196A4D82001FCCD9 /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E871969047C002FFF2F /* DEBIAN */,
-				AF754E901969047D002FFF2F /* Library */,
+				AFCC8674196A4D82001FCCD9 /* DEBIAN */,
+				AFCC867D196A4D82001FCCD9 /* Library */,
 			);
 			name = Package;
 			sourceTree = "<group>";
 		};
-		AF754E871969047C002FFF2F /* DEBIAN */ = {
+		AFCC8674196A4D82001FCCD9 /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E881969047C002FFF2F /* control.txt */,
-				AF754E891969047C002FFF2F /* control */,
+				AFCC8675196A4D82001FCCD9 /* control.txt */,
+				AFCC8676196A4D82001FCCD9 /* control */,
 			);
 			name = DEBIAN;
 			sourceTree = "<group>";
 		};
-		AF754E8A1969047C002FFF2F /* Supporting Files */ = {
+		AFCC8677196A4D82001FCCD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E8B1969047C002FFF2F /* PackageVersion.plist */,
-				AF754E8C1969047C002FFF2F /* Twilight-Prefix.pch */,
+				AFCC8678196A4D82001FCCD9 /* PackageVersion.plist */,
+				AFCC8679196A4D82001FCCD9 /* Twilight-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AF754E901969047D002FFF2F /* Library */ = {
+		AFCC867D196A4D82001FCCD9 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E911969047D002FFF2F /* MobileSubstrate */,
+				AFCC867E196A4D82001FCCD9 /* MobileSubstrate */,
 			);
 			name = Library;
 			sourceTree = "<group>";
 		};
-		AF754E911969047D002FFF2F /* MobileSubstrate */ = {
+		AFCC867E196A4D82001FCCD9 /* MobileSubstrate */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E921969047D002FFF2F /* DynamicLibraries */,
+				AFCC867F196A4D82001FCCD9 /* DynamicLibraries */,
 			);
 			name = MobileSubstrate;
 			sourceTree = "<group>";
 		};
-		AF754E921969047D002FFF2F /* DynamicLibraries */ = {
+		AFCC867F196A4D82001FCCD9 /* DynamicLibraries */ = {
 			isa = PBXGroup;
 			children = (
-				AF754E931969047D002FFF2F /* Twilight.plist */,
+				AFCC8680196A4D82001FCCD9 /* Twilight.plist */,
 			);
 			name = DynamicLibraries;
 			sourceTree = "<group>";
@@ -133,7 +129,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AF754E7D1969047C002FFF2F /* Headers */ = {
+		AFCC866A196A4D82001FCCD9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,15 +139,15 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF754E7F1969047C002FFF2F /* Twilight */ = {
+		AFCC866C196A4D82001FCCD9 /* Twilight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF754E961969047D002FFF2F /* Build configuration list for PBXNativeTarget "Twilight" */;
+			buildConfigurationList = AFCC8683196A4D82001FCCD9 /* Build configuration list for PBXNativeTarget "Twilight" */;
 			buildPhases = (
-				AF754E7A1969047C002FFF2F /* ShellScript */,
-				AF754E7B1969047C002FFF2F /* Sources */,
-				AF754E7C1969047C002FFF2F /* Frameworks */,
-				AF754E7D1969047C002FFF2F /* Headers */,
-				AF754E7E1969047C002FFF2F /* ShellScript */,
+				AFCC8667196A4D82001FCCD9 /* ShellScript */,
+				AFCC8668196A4D82001FCCD9 /* Sources */,
+				AFCC8669196A4D82001FCCD9 /* Frameworks */,
+				AFCC866A196A4D82001FCCD9 /* Headers */,
+				AFCC866B196A4D82001FCCD9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -159,36 +155,36 @@
 			);
 			name = Twilight;
 			productName = Twilight;
-			productReference = AF754E801969047C002FFF2F /* Twilight.dylib */;
+			productReference = AFCC866D196A4D82001FCCD9 /* Twilight.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF754E761969047C002FFF2F /* Project object */ = {
+		AFCC8663196A4D82001FCCD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = AF754E791969047C002FFF2F /* Build configuration list for PBXProject "Twilight" */;
+			buildConfigurationList = AFCC8666196A4D82001FCCD9 /* Build configuration list for PBXProject "Twilight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AF754E751969047C002FFF2F;
-			productRefGroup = AF754E811969047C002FFF2F /* Products */;
+			mainGroup = AFCC8662196A4D82001FCCD9;
+			productRefGroup = AFCC866E196A4D82001FCCD9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF754E7F1969047C002FFF2F /* Twilight */,
+				AFCC866C196A4D82001FCCD9 /* Twilight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AF754E7A1969047C002FFF2F /* ShellScript */ = {
+		AFCC8667196A4D82001FCCD9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,7 +197,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
 		};
-		AF754E7E1969047C002FFF2F /* ShellScript */ = {
+		AFCC866B196A4D82001FCCD9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,18 +213,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF754E7B1969047C002FFF2F /* Sources */ = {
+		AFCC8668196A4D82001FCCD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF754E8F1969047D002FFF2F /* Twilight.mm in Sources */,
+				AFCC867C196A4D82001FCCD9 /* Twilight.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AF754E941969047D002FFF2F /* Debug */ = {
+		AFCC8681196A4D82001FCCD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -260,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		AF754E951969047D002FFF2F /* Release */ = {
+		AFCC8682196A4D82001FCCD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -284,7 +280,7 @@
 			};
 			name = Release;
 		};
-		AF754E971969047D002FFF2F /* Debug */ = {
+		AFCC8684196A4D82001FCCD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -293,7 +289,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -305,7 +300,7 @@
 			};
 			name = Debug;
 		};
-		AF754E981969047D002FFF2F /* Release */ = {
+		AFCC8685196A4D82001FCCD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -314,7 +309,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -329,25 +323,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF754E791969047C002FFF2F /* Build configuration list for PBXProject "Twilight" */ = {
+		AFCC8666196A4D82001FCCD9 /* Build configuration list for PBXProject "Twilight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF754E941969047D002FFF2F /* Debug */,
-				AF754E951969047D002FFF2F /* Release */,
+				AFCC8681196A4D82001FCCD9 /* Debug */,
+				AFCC8682196A4D82001FCCD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF754E961969047D002FFF2F /* Build configuration list for PBXNativeTarget "Twilight" */ = {
+		AFCC8683196A4D82001FCCD9 /* Build configuration list for PBXNativeTarget "Twilight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF754E971969047D002FFF2F /* Debug */,
-				AF754E981969047D002FFF2F /* Release */,
+				AFCC8684196A4D82001FCCD9 /* Debug */,
+				AFCC8685196A4D82001FCCD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF754E761969047C002FFF2F /* Project object */;
+	rootObject = AFCC8663196A4D82001FCCD9 /* Project object */;
 }
