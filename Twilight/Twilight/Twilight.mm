@@ -1,4 +1,4 @@
-#line 1 "/Users/BlueCocoa/Desktop/Twilight/Twilight/Twilight.xm"
+#line 1 "/Users/BlueCocoa/Desktop/My Projects/Project-Twilight/Twilight/Twilight/Twilight.xm"
 #import <UIKit/UIKit.h>
 
 
@@ -16,7 +16,7 @@
 @class SBIconScrollView; 
 static void (*_logos_orig$_ungrouped$SBIconScrollView$touchesMoved$withEvent$)(SBIconScrollView*, SEL, NSSet *, id); static void _logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(SBIconScrollView*, SEL, NSSet *, id); 
 
-#line 13 "/Users/BlueCocoa/Desktop/Twilight/Twilight/Twilight.xm"
+#line 13 "/Users/BlueCocoa/Desktop/My Projects/Project-Twilight/Twilight/Twilight/Twilight.xm"
 
 
 float last;
@@ -37,6 +37,8 @@ static void _logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(SB
             [iconWindow setUserInteractionEnabled:YES];
         }];
         
+        
+        
     }else if(last - point.y < 0.0f){
         
         SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
@@ -48,6 +50,8 @@ static void _logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(SB
             [iconWindow setUserInteractionEnabled:YES];
         }];
         
+        
+        
     }
     last = point.y;
     _logos_orig$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(self, _cmd, touches,event);
@@ -57,4 +61,4 @@ static void _logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$(SB
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$SBIconScrollView = objc_getClass("SBIconScrollView"); MSHookMessageEx(_logos_class$_ungrouped$SBIconScrollView, @selector(touchesMoved:withEvent:), (IMP)&_logos_method$_ungrouped$SBIconScrollView$touchesMoved$withEvent$, (IMP*)&_logos_orig$_ungrouped$SBIconScrollView$touchesMoved$withEvent$);} }
-#line 51 "/Users/BlueCocoa/Desktop/Twilight/Twilight/Twilight.xm"
+#line 55 "/Users/BlueCocoa/Desktop/My Projects/Project-Twilight/Twilight/Twilight/Twilight.xm"
