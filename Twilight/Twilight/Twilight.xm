@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #import <UIKit/UIKit.h>
 
 // small header for SBIconScrollView
@@ -21,3 +22,6 @@ float last;
 }
 
 %end
+=======
+#include
+>>>>>>> FETCH_HEAD
