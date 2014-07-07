@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF09D487196A6A6400F9E540 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF09D486196A6A6400F9E540 /* QuartzCore.framework */; };
+		AF09D489196A6A8000F9E540 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF09D488196A6A8000F9E540 /* CoreData.framework */; };
+		AF09D48B196A6A8500F9E540 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF09D48A196A6A8500F9E540 /* XCTest.framework */; };
+		AF09D491196A6E0B00F9E540 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = AF09D48D196A6E0B00F9E540 /* UIImage+ImageEffects.h */; };
+		AF09D492196A6E0B00F9E540 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09D48E196A6E0B00F9E540 /* UIImage+ImageEffects.m */; };
+		AF09D493196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF09D48F196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.h */; };
+		AF09D494196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09D490196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.m */; };
+		AF09D497196A70C500F9E540 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09D495196A70C500F9E540 /* ModalViewController.m */; };
+		AF09D498196A70C500F9E540 /* ModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF09D496196A70C500F9E540 /* ModalViewController.h */; };
+		AF09D49B196A74F000F9E540 /* ExampleViewCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF09D499196A74F000F9E540 /* ExampleViewCollectionView.h */; };
+		AF09D49C196A74F000F9E540 /* ExampleViewCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09D49A196A74F000F9E540 /* ExampleViewCollectionView.m */; };
+		AF09D49F196A762400F9E540 /* ModalViewControllerWithoutScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF09D49D196A762400F9E540 /* ModalViewControllerWithoutScrollView.h */; };
+		AF09D4A0196A762400F9E540 /* ModalViewControllerWithoutScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09D49E196A762400F9E540 /* ModalViewControllerWithoutScrollView.m */; };
+		AF09D4A2196A774100F9E540 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF09D4A1196A774100F9E540 /* CoreImage.framework */; };
+		AF09D4A4196A785800F9E540 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF09D4A3196A785800F9E540 /* Accelerate.framework */; };
 		FE9836D7196A548800734EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9836D6196A548800734EA9 /* Foundation.framework */; };
 		FE9836E2196A548900734EA9 /* Twilight.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE9836E1196A548900734EA9 /* Twilight.mm */; };
 		FE9836ED196A54BD00734EA9 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9836EC196A54BD00734EA9 /* libsubstrate.dylib */; };
@@ -15,6 +30,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF09D486196A6A6400F9E540 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF09D488196A6A8000F9E540 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AF09D48A196A6A8500F9E540 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AF09D48D196A6E0B00F9E540 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		AF09D48E196A6E0B00F9E540 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		AF09D48F196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MHDismissModalView.h"; sourceTree = "<group>"; };
+		AF09D490196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MHDismissModalView.m"; sourceTree = "<group>"; };
+		AF09D495196A70C500F9E540 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		AF09D496196A70C500F9E540 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		AF09D499196A74F000F9E540 /* ExampleViewCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewCollectionView.h; sourceTree = "<group>"; };
+		AF09D49A196A74F000F9E540 /* ExampleViewCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewCollectionView.m; sourceTree = "<group>"; };
+		AF09D49D196A762400F9E540 /* ModalViewControllerWithoutScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewControllerWithoutScrollView.h; sourceTree = "<group>"; };
+		AF09D49E196A762400F9E540 /* ModalViewControllerWithoutScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewControllerWithoutScrollView.m; sourceTree = "<group>"; };
+		AF09D4A1196A774100F9E540 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		AF09D4A3196A785800F9E540 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FE9836D3196A548800734EA9 /* Twilight.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Twilight.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9836D6196A548800734EA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE9836DB196A548800734EA9 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
@@ -34,6 +64,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF09D4A4196A785800F9E540 /* Accelerate.framework in Frameworks */,
+				AF09D4A2196A774100F9E540 /* CoreImage.framework in Frameworks */,
+				AF09D48B196A6A8500F9E540 /* XCTest.framework in Frameworks */,
+				AF09D489196A6A8000F9E540 /* CoreData.framework in Frameworks */,
+				AF09D487196A6A6400F9E540 /* QuartzCore.framework in Frameworks */,
 				FE9836F1196A54C400734EA9 /* CoreGraphics.framework in Frameworks */,
 				FE9836EF196A54C000734EA9 /* UIKit.framework in Frameworks */,
 				FE9836ED196A54BD00734EA9 /* libsubstrate.dylib in Frameworks */,
@@ -44,9 +79,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF09D48C196A6DA800F9E540 /* Popup Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AF09D48D196A6E0B00F9E540 /* UIImage+ImageEffects.h */,
+				AF09D48E196A6E0B00F9E540 /* UIImage+ImageEffects.m */,
+				AF09D48F196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.h */,
+				AF09D490196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.m */,
+			);
+			name = "Popup Headers";
+			sourceTree = "<group>";
+		};
 		FE9836C8196A548800734EA9 = {
 			isa = PBXGroup;
 			children = (
+				AF09D49D196A762400F9E540 /* ModalViewControllerWithoutScrollView.h */,
+				AF09D49E196A762400F9E540 /* ModalViewControllerWithoutScrollView.m */,
+				AF09D499196A74F000F9E540 /* ExampleViewCollectionView.h */,
+				AF09D49A196A74F000F9E540 /* ExampleViewCollectionView.m */,
+				AF09D495196A70C500F9E540 /* ModalViewController.m */,
+				AF09D496196A70C500F9E540 /* ModalViewController.h */,
+				AF09D48C196A6DA800F9E540 /* Popup Headers */,
 				FE9836D8196A548800734EA9 /* Twilight */,
 				FE9836D5196A548800734EA9 /* Frameworks */,
 				FE9836D4196A548800734EA9 /* Products */,
@@ -64,6 +117,11 @@
 		FE9836D5196A548800734EA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF09D4A3196A785800F9E540 /* Accelerate.framework */,
+				AF09D4A1196A774100F9E540 /* CoreImage.framework */,
+				AF09D48A196A6A8500F9E540 /* XCTest.framework */,
+				AF09D488196A6A8000F9E540 /* CoreData.framework */,
+				AF09D486196A6A6400F9E540 /* QuartzCore.framework */,
 				FE9836F0196A54C400734EA9 /* CoreGraphics.framework */,
 				FE9836EE196A54C000734EA9 /* UIKit.framework */,
 				FE9836EC196A54BD00734EA9 /* libsubstrate.dylib */,
@@ -141,6 +199,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF09D491196A6E0B00F9E540 /* UIImage+ImageEffects.h in Headers */,
+				AF09D493196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.h in Headers */,
+				AF09D498196A70C500F9E540 /* ModalViewController.h in Headers */,
+				AF09D49B196A74F000F9E540 /* ExampleViewCollectionView.h in Headers */,
+				AF09D49F196A762400F9E540 /* ModalViewControllerWithoutScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF09D49C196A74F000F9E540 /* ExampleViewCollectionView.m in Sources */,
+				AF09D497196A70C500F9E540 /* ModalViewController.m in Sources */,
+				AF09D492196A6E0B00F9E540 /* UIImage+ImageEffects.m in Sources */,
+				AF09D4A0196A762400F9E540 /* ModalViewControllerWithoutScrollView.m in Sources */,
+				AF09D494196A6E0B00F9E540 /* UINavigationController+MHDismissModalView.m in Sources */,
 				FE9836E2196A548900734EA9 /* Twilight.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +364,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
@@ -322,6 +394,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
