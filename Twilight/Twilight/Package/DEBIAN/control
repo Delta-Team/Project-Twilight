@@ -1,4 +1,4 @@
-Package: Meirtz.Twilight
+Package: com.ra1ndrops.Twilight
 Name: Twilight
 Version: 0.1-1
 Description: 
@@ -8,7 +8,7 @@ Conflicts:
 Replaces: 
 Priority: optional
 Architecture: iphoneos-arm
-Author: Meirtz
+Author: BlueCocoa
 dev: 
 Homepage: 
 Depiction: 

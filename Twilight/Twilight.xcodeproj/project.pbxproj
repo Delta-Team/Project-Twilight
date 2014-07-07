@@ -7,121 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFCC8671196A4D82001FCCD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCC8670196A4D82001FCCD9 /* Foundation.framework */; };
-		AFCC867C196A4D82001FCCD9 /* Twilight.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFCC867B196A4D82001FCCD9 /* Twilight.mm */; };
-		AFCC8687196A4D94001FCCD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCC8686196A4D94001FCCD9 /* UIKit.framework */; };
+		FE9836D7196A548800734EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9836D6196A548800734EA9 /* Foundation.framework */; };
+		FE9836E2196A548900734EA9 /* Twilight.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE9836E1196A548900734EA9 /* Twilight.mm */; };
+		FE9836ED196A54BD00734EA9 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9836EC196A54BD00734EA9 /* libsubstrate.dylib */; };
+		FE9836EF196A54C000734EA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9836EE196A54C000734EA9 /* UIKit.framework */; };
+		FE9836F1196A54C400734EA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9836F0196A54C400734EA9 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AFCC866D196A4D82001FCCD9 /* Twilight.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Twilight.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFCC8670196A4D82001FCCD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AFCC8675196A4D82001FCCD9 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
-		AFCC8676196A4D82001FCCD9 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
-		AFCC8678196A4D82001FCCD9 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
-		AFCC8679196A4D82001FCCD9 /* Twilight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twilight-Prefix.pch"; sourceTree = "<group>"; };
-		AFCC867A196A4D82001FCCD9 /* Twilight.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		AFCC867B196A4D82001FCCD9 /* Twilight.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.mm; sourceTree = "<group>"; };
-		AFCC8680196A4D82001FCCD9 /* Twilight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Twilight.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Twilight.plist; sourceTree = "<group>"; };
-		AFCC8686196A4D94001FCCD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE9836D3196A548800734EA9 /* Twilight.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Twilight.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9836D6196A548800734EA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE9836DB196A548800734EA9 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		FE9836DC196A548800734EA9 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FE9836DE196A548900734EA9 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FE9836DF196A548900734EA9 /* Twilight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twilight-Prefix.pch"; sourceTree = "<group>"; };
+		FE9836E0196A548900734EA9 /* Twilight.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FE9836E1196A548900734EA9 /* Twilight.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Twilight.mm; sourceTree = "<group>"; };
+		FE9836E6196A548900734EA9 /* Twilight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Twilight.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Twilight.plist; sourceTree = "<group>"; };
+		FE9836EC196A54BD00734EA9 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		FE9836EE196A54C000734EA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE9836F0196A54C400734EA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFCC8669196A4D82001FCCD9 /* Frameworks */ = {
+		FE9836CF196A548800734EA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFCC8687196A4D94001FCCD9 /* UIKit.framework in Frameworks */,
-				AFCC8671196A4D82001FCCD9 /* Foundation.framework in Frameworks */,
+				FE9836F1196A54C400734EA9 /* CoreGraphics.framework in Frameworks */,
+				FE9836EF196A54C000734EA9 /* UIKit.framework in Frameworks */,
+				FE9836ED196A54BD00734EA9 /* libsubstrate.dylib in Frameworks */,
+				FE9836D7196A548800734EA9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFCC8662196A4D82001FCCD9 = {
+		FE9836C8196A548800734EA9 = {
 			isa = PBXGroup;
 			children = (
-				AFCC8672196A4D82001FCCD9 /* Twilight */,
-				AFCC866F196A4D82001FCCD9 /* Frameworks */,
-				AFCC866E196A4D82001FCCD9 /* Products */,
+				FE9836D8196A548800734EA9 /* Twilight */,
+				FE9836D5196A548800734EA9 /* Frameworks */,
+				FE9836D4196A548800734EA9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AFCC866E196A4D82001FCCD9 /* Products */ = {
+		FE9836D4196A548800734EA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC866D196A4D82001FCCD9 /* Twilight.dylib */,
+				FE9836D3196A548800734EA9 /* Twilight.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFCC866F196A4D82001FCCD9 /* Frameworks */ = {
+		FE9836D5196A548800734EA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC8686196A4D94001FCCD9 /* UIKit.framework */,
-				AFCC8670196A4D82001FCCD9 /* Foundation.framework */,
+				FE9836F0196A54C400734EA9 /* CoreGraphics.framework */,
+				FE9836EE196A54C000734EA9 /* UIKit.framework */,
+				FE9836EC196A54BD00734EA9 /* libsubstrate.dylib */,
+				FE9836D6196A548800734EA9 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AFCC8672196A4D82001FCCD9 /* Twilight */ = {
+		FE9836D8196A548800734EA9 /* Twilight */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC867A196A4D82001FCCD9 /* Twilight.xm */,
-				AFCC867B196A4D82001FCCD9 /* Twilight.mm */,
-				AFCC8673196A4D82001FCCD9 /* Package */,
-				AFCC8677196A4D82001FCCD9 /* Supporting Files */,
+				FE9836E0196A548900734EA9 /* Twilight.xm */,
+				FE9836E1196A548900734EA9 /* Twilight.mm */,
+				FE9836D9196A548800734EA9 /* Package */,
+				FE9836DD196A548900734EA9 /* Supporting Files */,
 			);
 			path = Twilight;
 			sourceTree = "<group>";
 		};
-		AFCC8673196A4D82001FCCD9 /* Package */ = {
+		FE9836D9196A548800734EA9 /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC8674196A4D82001FCCD9 /* DEBIAN */,
-				AFCC867D196A4D82001FCCD9 /* Library */,
+				FE9836DA196A548800734EA9 /* DEBIAN */,
+				FE9836E3196A548900734EA9 /* Library */,
 			);
 			name = Package;
 			sourceTree = "<group>";
 		};
-		AFCC8674196A4D82001FCCD9 /* DEBIAN */ = {
+		FE9836DA196A548800734EA9 /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC8675196A4D82001FCCD9 /* control.txt */,
-				AFCC8676196A4D82001FCCD9 /* control */,
+				FE9836DB196A548800734EA9 /* control.txt */,
+				FE9836DC196A548800734EA9 /* control */,
 			);
 			name = DEBIAN;
 			sourceTree = "<group>";
 		};
-		AFCC8677196A4D82001FCCD9 /* Supporting Files */ = {
+		FE9836DD196A548900734EA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC8678196A4D82001FCCD9 /* PackageVersion.plist */,
-				AFCC8679196A4D82001FCCD9 /* Twilight-Prefix.pch */,
+				FE9836DE196A548900734EA9 /* PackageVersion.plist */,
+				FE9836DF196A548900734EA9 /* Twilight-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AFCC867D196A4D82001FCCD9 /* Library */ = {
+		FE9836E3196A548900734EA9 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC867E196A4D82001FCCD9 /* MobileSubstrate */,
+				FE9836E4196A548900734EA9 /* MobileSubstrate */,
 			);
 			name = Library;
 			sourceTree = "<group>";
 		};
-		AFCC867E196A4D82001FCCD9 /* MobileSubstrate */ = {
+		FE9836E4196A548900734EA9 /* MobileSubstrate */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC867F196A4D82001FCCD9 /* DynamicLibraries */,
+				FE9836E5196A548900734EA9 /* DynamicLibraries */,
 			);
 			name = MobileSubstrate;
 			sourceTree = "<group>";
 		};
-		AFCC867F196A4D82001FCCD9 /* DynamicLibraries */ = {
+		FE9836E5196A548900734EA9 /* DynamicLibraries */ = {
 			isa = PBXGroup;
 			children = (
-				AFCC8680196A4D82001FCCD9 /* Twilight.plist */,
+				FE9836E6196A548900734EA9 /* Twilight.plist */,
 			);
 			name = DynamicLibraries;
 			sourceTree = "<group>";
@@ -129,7 +137,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AFCC866A196A4D82001FCCD9 /* Headers */ = {
+		FE9836D0196A548800734EA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,15 +147,15 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AFCC866C196A4D82001FCCD9 /* Twilight */ = {
+		FE9836D2196A548800734EA9 /* Twilight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFCC8683196A4D82001FCCD9 /* Build configuration list for PBXNativeTarget "Twilight" */;
+			buildConfigurationList = FE9836E9196A548900734EA9 /* Build configuration list for PBXNativeTarget "Twilight" */;
 			buildPhases = (
-				AFCC8667196A4D82001FCCD9 /* ShellScript */,
-				AFCC8668196A4D82001FCCD9 /* Sources */,
-				AFCC8669196A4D82001FCCD9 /* Frameworks */,
-				AFCC866A196A4D82001FCCD9 /* Headers */,
-				AFCC866B196A4D82001FCCD9 /* ShellScript */,
+				FE9836CD196A548800734EA9 /* ShellScript */,
+				FE9836CE196A548800734EA9 /* Sources */,
+				FE9836CF196A548800734EA9 /* Frameworks */,
+				FE9836D0196A548800734EA9 /* Headers */,
+				FE9836D1196A548800734EA9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -155,36 +163,41 @@
 			);
 			name = Twilight;
 			productName = Twilight;
-			productReference = AFCC866D196A4D82001FCCD9 /* Twilight.dylib */;
+			productReference = FE9836D3196A548800734EA9 /* Twilight.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AFCC8663196A4D82001FCCD9 /* Project object */ = {
+		FE9836C9196A548800734EA9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					FE9836D2196A548800734EA9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
 			};
-			buildConfigurationList = AFCC8666196A4D82001FCCD9 /* Build configuration list for PBXProject "Twilight" */;
+			buildConfigurationList = FE9836CC196A548800734EA9 /* Build configuration list for PBXProject "Twilight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AFCC8662196A4D82001FCCD9;
-			productRefGroup = AFCC866E196A4D82001FCCD9 /* Products */;
+			mainGroup = FE9836C8196A548800734EA9;
+			productRefGroup = FE9836D4196A548800734EA9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFCC866C196A4D82001FCCD9 /* Twilight */,
+				FE9836D2196A548800734EA9 /* Twilight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AFCC8667196A4D82001FCCD9 /* ShellScript */ = {
+		FE9836CD196A548800734EA9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,7 +210,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
 		};
-		AFCC866B196A4D82001FCCD9 /* ShellScript */ = {
+		FE9836D1196A548800734EA9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,21 +226,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFCC8668196A4D82001FCCD9 /* Sources */ = {
+		FE9836CE196A548800734EA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFCC867C196A4D82001FCCD9 /* Twilight.mm in Sources */,
+				FE9836E2196A548900734EA9 /* Twilight.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AFCC8681196A4D82001FCCD9 /* Debug */ = {
+		FE9836E7196A548900734EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -246,9 +258,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = NO;
@@ -256,10 +267,9 @@
 			};
 			name = Debug;
 		};
-		AFCC8682196A4D82001FCCD9 /* Release */ = {
+		FE9836E8196A548900734EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -271,7 +281,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -280,16 +290,28 @@
 			};
 			name = Release;
 		};
-		AFCC8684196A4D82001FCCD9 /* Debug */ = {
+		FE9836EA196A548900734EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "iPhone Developer: ruomeng Xu (Q56EMZ3UZK)";
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+>>>>>>> FETCH_HEAD
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+<<<<<<< HEAD
+=======
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+>>>>>>> FETCH_HEAD
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -301,16 +323,27 @@
 			};
 			name = Debug;
 		};
-		AFCC8685196A4D82001FCCD9 /* Release */ = {
+		FE9836EB196A548900734EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "iPhone Developer: ruomeng Xu (Q56EMZ3UZK)";
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+>>>>>>> FETCH_HEAD
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+<<<<<<< HEAD
+=======
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+>>>>>>> FETCH_HEAD
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -325,25 +358,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFCC8666196A4D82001FCCD9 /* Build configuration list for PBXProject "Twilight" */ = {
+		FE9836CC196A548800734EA9 /* Build configuration list for PBXProject "Twilight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFCC8681196A4D82001FCCD9 /* Debug */,
-				AFCC8682196A4D82001FCCD9 /* Release */,
+				FE9836E7196A548900734EA9 /* Debug */,
+				FE9836E8196A548900734EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFCC8683196A4D82001FCCD9 /* Build configuration list for PBXNativeTarget "Twilight" */ = {
+		FE9836E9196A548900734EA9 /* Build configuration list for PBXNativeTarget "Twilight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFCC8684196A4D82001FCCD9 /* Debug */,
-				AFCC8685196A4D82001FCCD9 /* Release */,
+				FE9836EA196A548900734EA9 /* Debug */,
+				FE9836EB196A548900734EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AFCC8663196A4D82001FCCD9 /* Project object */;
+	rootObject = FE9836C9196A548800734EA9 /* Project object */;
 }
