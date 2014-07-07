@@ -293,11 +293,7 @@
 		FE9836EA196A548900734EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
-				CODE_SIGN_IDENTITY = "iPhone Developer: ruomeng Xu (Q56EMZ3UZK)";
-=======
 				CODE_SIGN_IDENTITY = "iPhone Developer";
->>>>>>> FETCH_HEAD
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -305,13 +301,10 @@
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-<<<<<<< HEAD
-=======
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/iOSOpenDev/lib,
 				);
->>>>>>> FETCH_HEAD
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -326,24 +319,17 @@
 		FE9836EB196A548900734EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
-				CODE_SIGN_IDENTITY = "iPhone Developer: ruomeng Xu (Q56EMZ3UZK)";
-=======
 				CODE_SIGN_IDENTITY = "iPhone Developer";
->>>>>>> FETCH_HEAD
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twilight/Twilight-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-<<<<<<< HEAD
-=======
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/iOSOpenDev/lib,
 				);
->>>>>>> FETCH_HEAD
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -374,7 +360,6 @@
 				FE9836EB196A548900734EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
