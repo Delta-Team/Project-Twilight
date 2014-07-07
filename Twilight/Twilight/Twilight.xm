@@ -19,8 +19,8 @@ float last;
 {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self];
-    if (last - point.y > 30.0f){
-        // touch moved up 10px
+    if (last - point.y > 15.0f){
+        // touch moved up 15px
         SpringBoard *sb = (SpringBoard *)[UIApplication sharedApplication];
         UIWindow *iconWindow = sb.keyWindow;
         [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
